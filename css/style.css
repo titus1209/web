@@ -1,0 +1,304 @@
+@charset "UTF-8";
+body {
+  height: 1000px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #2d2d2d;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #733fa3;
+}
+
+* {
+  font-family: "微軟正黑體", "Arial";
+}
+
+header {
+  text-align: center;
+  background-image: url(../Images/Edited.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 0px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+.jumbotron hr {
+  border: 1px solid #888;
+  width: 200px;
+}
+.jumbotron h3 {
+  color: #555;
+  font-size: 18px;
+}
+.jumbotron .col-sm-12 {
+  padding: 120px;
+}
+.jumbotron .btn1 {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.8s;
+}
+.jumbotron .btn1-1 {
+  background: #888;
+  color: #fff;
+  transition: 0.5s;
+  border: 1px solid #fff;
+}
+
+section.about {
+  //*background-image: url(../Images/Edited_2.png);*//
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+section.about .sub01 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+section.about .exp {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+section.about .con2 {
+  padding: 130px;
+}
+section.about .con2 .myself {
+  width: 100%;
+}
+section.about .con2 .col-md-offset-2 {
+  margin-top: 30px;
+}
+section.about .col-md-6 h2 {
+  text-align: left;
+}
+section.about .col-md-6 p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+section.ability {
+  background-image: url(../Images/Edited_3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+section.ability .sub02 {
+  font-size: 45px;
+}
+section.ability p {
+  font-size: 16px;
+  line-height: 36px;
+}
+section.ability a.col-sm-4.see2 {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #733fa3;
+  max-width: 150px;
+}
+section.ability a.col-sm-4.see2:hover {
+  background-color: #410e75;
+  transition: 0.5s;
+  cursor: pointer;
+}
+section.ability .con3 {
+  padding: 100px;
+}
+section.ability .col-sm-6.work01 img {
+  width: 50%;
+}
+
+h3.s-sub02 {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+section.graphic {
+  background-image: url(../Images/Edited_3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+section.graphic .sub02 {
+  font-size: 45px;
+}
+section.graphic .con4 {
+  padding: 100px;
+}
+section.graphic p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 36px;
+}
+section.graphic img.work02 {
+  width: 100%;
+}
+section.graphic a.col-sm-4.see3 {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #733fa3;
+  margin-bottom: 10px;
+}
+section.graphic a.col-sm-4.see3:hover {
+  background-color: #410e75;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+h3.s-sub02 {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+section.ui {
+  //*background-image: url(../Images/Edited_3.png);*//
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+section.ui .sub02 {
+  font-size: 45px;
+}
+section.ui .con5 {
+  padding: 100px;
+}
+section.ui .col-sm-6.work03 img {
+  width: 110%;
+}
+
+h3.s-sub02 {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+h2.sb03, p {
+  text-align: left;
+}
+
+p.see4 {
+  text-align: right;
+  color: #733fa3;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(../Images/Edited_4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  color: #fff;
+  padding: 50px 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+footer.jumbotron ::-webkit-input-placeholder {
+  color: #44A3FE;
+}
+
+svg {background-color: #DCDCDC; }
+
+
+
+
+
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+figure{
+	position: relative;
+	height: 300px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+figcaption{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: -30px;
+}
+
+figure:hover figcaption{
+	visibility: visible;
+}
+
+.image_1{
+	overflow: hidden;
+}
+
+.image_1 img{
+	transition: 0.8s;
+}
+
+.image_1 img:hover{
+  	transform: scale(1.15) rotate(5deg);
+}
+
+.image_2{
+	overflow: hidden;
+}
+
+.image_2 img{
+	transition: 0.8s;
+	filter: blur(5px);
+}
+
+.image_2 img:hover{
+  	transform: scale(1.15);
+  	filter: blur(0px);
+}
+
+.image_3{
+	overflow: hidden;
+}
+.image_3 img{
+	transition: 0.8s;
+	filter: grayscale(100%);
+}
+
+.image_3 img:hover{
+  	transform: scale(1.15);
+  	filter: grayscale(0%);
+}
+

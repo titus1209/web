@@ -1,0 +1,97 @@
+nav.navbar.navbar-default.navbar-fixed-top.at_top
+  .container
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#header_index') MY PORTFOLIO
+    #navbar.navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li.active
+          a(href='#section-about') About Me
+        li
+          a(href='#section-ability') Web Design
+        li
+          a(href='#section-graphic') GRAPHIC DESIGN
+        li
+          a(href='#section-ui') UI DESIGN
+        li
+          a(href='#section-conact') Contact
+header.jumbotron#header_index
+  .container
+    .row 
+      .col-sm-12
+        h1(data-0="transform: translateY(-50px)" data-90="transform: translateY(0px)")  MY PORTFOLIO
+        hr
+        h3(data-0="opacity: 0.3" data-90="opacity: 1") WEB/UI/GRAPHIC
+    .row
+      .col-sm-6.col-sm-offset-3
+        h2.btn1 see more
+//第2部分
+
+section.about 
+  .container.con2#section-about
+    .row
+      .col-sm-12
+        h2.sub01(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") ABOUT ME
+    .row
+      .col-md-6.col-sm-12
+        img.myself(data-bottom-top="transform: translateX(-200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1" src='https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/606ff353103471.5927df151195c.jpg', alt="")
+        
+      .col-md-6.col-sm-12(data-bottom-top="transform: translateX(200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1") 
+        h2 董翠峰 
+        .exp 個人經歷 /Experience
+        p  艾帝科技 網站美編設計 <br>資策會第47屆互動式UI/UX網頁設計班<br>屯山社區2015年月曆設計<br>屯山專案線上網站設計<br>
+          
+//第3部分   
+section.ability
+  .container.con3#section-ability
+    .row
+      .col-sm-12
+        h2.sub02(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") MY WORK
+        h3.s-sub02(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") WEB DESIGN
+    .row
+      .col-sm-6.work01
+        img.myself(data-bottom-top="transform: translateX(-200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1d2cc953032979.592591b5c69e8.jpg", alt="")
+      .col-sm-6(data-bottom-top="transform: translateX(200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1") 
+        h2.sb03 Let's picnic 電商網站
+        p  let’s picnic是一個以野餐為主題，發想的電商網站。除了一般的商品購物外，我們還提供了創新的野餐車服務。讓懶得準備野餐餐點以及配備的人，可以在這個網站直接完成您的需求。搭配大量的手繪插圖，營造出網站整體清新可愛的氛圍。
+       
+//第4部分   
+section.graphic
+  .container.con4#section-graphic
+    .row
+      .col-sm-12
+        h2.sub02(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") MY WORK
+        h3.s-sub02(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") GRAPHIC DESIGN
+    .row
+      .col-sm-6.work02(data-bottom-top="transform: translateX(-200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/6d3ea153032839.592590fb00aef.jpg", alt="")
+        h2.sb03 互動式UI/UX 專題邀請卡
+        p  以isometric 設計技巧製作.再加上特殊的材質讓畫面更有質感。
+       
+       
+      .col-sm-6(data-bottom-top="transform: translateX(200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1" src="http://i.imgur.com/YPC0uG2.jpg", alt="")
+         img.work02(src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/6d3ea153032839.592590fb00aef.jpg", alt="")
+  //第5部分   
+section.ui
+  .container.con5#section-ui
+    .row
+      .col-sm-12(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 
+        h2.sub02 MY WORK
+        h3.s-sub02 UI DESIGN
+    .row
+      .col-sm-6.work03(data-bottom-top="transform: translateX(-200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1")
+        img.myself(src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d4799552678509.591934a66fc91.jpg", alt="")
+      .col-sm-6(data-bottom-top="transform: translateX(200px);opacity: 0" data-center="transform: translateX(0px);opacity: 1" src="http://i.imgur.com/znSrfyV.jpg", alt="")
+        h2.sb03 User Profile
+        p  自我練習的一個設計．以電話聯絡人的資料修改為主題，結合抽象的線條元素讓整個介面看起來更有質感．
+      
+//footer       
+footer.jumbotron
+  .container#section-conact
+    h2 CONACT ME
+    input.form-control(placeholder="email")
+    hr
+    button.btn.btn-default 跟我聯絡
